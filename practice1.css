@@ -1,0 +1,204 @@
+body{  
+    background-image: url(imagenes/logotipo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+     }
+h1{
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 55px;
+    white-space: normal;
+    width: 350px;
+    border-width:thin;
+    font-family: cursive;
+    color:crimson;
+    text-decoration:underline;
+    text-align: center;
+    font-size:4em;
+    }
+
+.BarraMenu {
+    width: 1000px;
+    margin: 30px ;
+   background: rgba(116, 203, 227, 0.751) ; 
+}
+
+.BarraMenu ul {
+    list-style: none;  
+}
+
+
+
+.menu  li{
+   display: inline-block;
+   position: relative;
+
+}
+
+.menu > li > a{
+   display: block;
+   padding: 15px 20px;
+   color: #100f0f;
+   font-family: open sans-serif;
+   text-decoration: none;
+}
+
+.menu li a:hover{
+    transition: all .2s;
+    color: aquamarine;
+
+}
+
+.menu > ul > li {
+    display: inline-block;
+    border-radius:20px;
+    margin: 20px;
+    margin-top: 5px;
+    color: rgb(241, 95, 95); 
+    
+}
+
+.submenu{
+    position: absolute;
+    background: #808089;
+    width: 120%;
+    display: none;
+}
+
+.submenu li a{
+  display: block;
+  padding: 15px;
+  color: #f0f8ff;
+  text-decoration: none;
+
+}
+
+.menu li:hover .submenu{
+    display: block;
+}  
+
+.logo2{
+    width: 190px;
+    height: 150px;
+    margin-right: auto;         
+}
+img{
+    transition:all 0.5s ease;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
+#tablas{
+    background-color:#808089; 
+    height:auto; overflow: hidden;  
+    padding:10px;
+}
+#slide{
+   width: 63%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.sobreNosotro{
+    width: 30%;
+    float: left;
+    text-align: center;
+    font-family: cursive;
+    font-size: 21px;
+    border-bottom-style: double; 
+
+}
+
+.Mision{
+    width: 30%;
+    float: left;
+    text-align: center;
+    font-family: cursive;
+    font-size: 21px ;
+    border-bottom-style: double; 
+
+}
+
+.Vision{
+    width: 30%;
+    float: left;
+    text-align:center;
+    font-family:cursive;
+    font-size: 23px;
+    border-bottom-style: double; 
+} 
+.leer{
+    background-color:#f0f8ff;
+    text-decoration: none;
+}
+
+.separador1{
+    height: auto;
+    padding: 5%; 
+}
+
+.separador{
+    height: 5px;
+}
+
+ .pie{
+    font-family: cursive;
+    background-color: black;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 87px;
+    width: 1001px;
+    clear: both;
+}
+
+#pie2{
+ 
+    color:azure;
+    text-align: center;
+    height: 20px;
+    margin: auto;
+    font-size:40px;
+}
+
+#pie3{
+    color:blanchedalmond;
+    font-family:sans-serif;
+    font-size: 12px
+}
+
+#tabla2{
+    width: 900px;
+    height: auto; overflow: hidden;
+    
+    
+}
+
+
+iframe{
+    width: 450px;
+    height: 220px;
+    border-radius: 21px;
+    margin: auto;
+    display: block;
+    float: right;
+
+    
+}
+.nt{
+    color:aliceblue;
+    text-align: center;
+    font-family: cursive;
+    font-family: monospace;
+}
+
+
+
